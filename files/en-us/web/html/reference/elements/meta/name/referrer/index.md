@@ -65,3 +65,4 @@ The following `<meta>` element specifies that the document shouldn't send a `Ref
 ## See also
 
 - HTTP {{httpheader("Referer")}} header
+- {{domxref("document.referrer")}}
