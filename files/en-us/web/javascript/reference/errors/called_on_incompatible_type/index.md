@@ -18,11 +18,17 @@ TypeError: Illegal invocation (V8-based)
 TypeError: Function.prototype.toString requires that 'this' be a Function (V8-based)
 TypeError: this is not a Date object. (V8-based)
 TypeError: this is not a typed array. (V8-based)
+
 TypeError: Function.prototype.toString called on incompatible object (Firefox)
 TypeError: Function.prototype.bind called on incompatible target (Firefox)
 TypeError: 'addEventListener' called on an object that does not implement interface EventTarget. (Firefox)
+
 TypeError: Type error (Safari)
 TypeError: undefined is not an object (Safari)
+TypeError: |this| is not a function inside Function.prototype.bind (Safari)
+TypeError: Receiver should be a typed array view (Safari)
+TypeError: Symbol.prototype.toString requires that |this| be a symbol or a symbol object (Safari)
+TypeError: Can only call EventTarget.addEventListener on instances of EventTarget (Safari)
 ```
 
 ## Error type
