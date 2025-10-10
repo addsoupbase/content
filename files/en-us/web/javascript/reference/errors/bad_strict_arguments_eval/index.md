@@ -25,7 +25,7 @@ SyntaxError: 'arguments' is not a valid function name in strict mode. (Safari)
 
 ## What went wrong?
 
-In strict mode, the names {{jsxref("Functions/arguments", "arguments")}} and {{jsxref("Global_Objects/eval", "eval")}} behave as if they are [reserved words](/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_words): you cannot make they refer to anything other than the `arguments` object in functions or the global `eval` function.
+In strict mode, the names {{jsxref("Functions/arguments", "arguments")}} and {{jsxref("Global_Objects/eval", "eval")}} behave as if they are [reserved words](/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#reserved_words): you cannot make them refer to anything other than the `arguments` object in functions or the global `eval` function.
 
 ## Examples
 
